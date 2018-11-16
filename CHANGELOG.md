@@ -1,5 +1,10 @@
 ## unreleased
 
+* Add support for CSI Spec `v1.0.0`. This version is also compatible with Kubernetes `v1.13+`
+* Updated all sidecars to support the new spec
+* Update plugin registry dir from `/var/lib/kubelet/plugins/` to `/var/lib/kubelet/plugins_registry/`
+* Updated the dependencies to comply with the latest CSI version, such as `github.com/golang/protobuf` to `v1.2.0`
+
 ## v0.4.0 - 2018.11.26
 
 * Add CSI Snapshots functionality
