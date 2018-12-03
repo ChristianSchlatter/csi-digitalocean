@@ -45,7 +45,7 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.2.1 // indirect
 	k8s.io/api v0.0.0-20181117111259-46ad728b8d13
-	k8s.io/apimachinery v0.0.0-20181116115711-1b0702fe2927
+	k8s.io/apimachinery v0.0.0-20181201231028-18a5ff3097b4
 	k8s.io/client-go v9.0.0+incompatible
 	k8s.io/klog v0.1.0 // indirect
 	launchpad.net/gocheck v0.0.0-20140225173054-000000000087 // indirect
