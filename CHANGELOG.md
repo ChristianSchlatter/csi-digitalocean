@@ -4,6 +4,7 @@
 * Updated all sidecars to support the new spec
 * Update plugin registry dir from `/var/lib/kubelet/plugins/` to `/var/lib/kubelet/plugins_registry/`
 * Updated the dependencies to comply with the latest CSI version, such as `github.com/golang/protobuf` to `v1.2.0`
+  [[GH-113]](https://github.com/digitalocean/csi-digitalocean/pull/113)
 
 ## v0.4.0 - 2018.11.26
 
