@@ -598,6 +598,7 @@ func (d *Driver) CreateSnapshot(ctx context.Context, req *csi.CreateSnapshotRequ
 					"couldn't convert DO snapshot to CSI snapshot: %s", err.Error())
 			}
 
+			ll.WithField("snapshot", s).Info("snapshot already created")
 			return &csi.CreateSnapshotResponse{
 				Snapshot: s,
 			}, nil
@@ -629,6 +630,7 @@ func (d *Driver) CreateSnapshot(ctx context.Context, req *csi.CreateSnapshotRequ
 			"couldn't convert DO snapshot to CSI snapshot: %s", err.Error())
 	}
 
+	ll.WithField("snapshot", s).Info("snapshot created")
 	return &csi.CreateSnapshotResponse{
 		Snapshot: s,
 	}, nil

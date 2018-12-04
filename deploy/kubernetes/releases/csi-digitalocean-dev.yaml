@@ -213,7 +213,7 @@ spec:
       serviceAccount: csi-do-controller-sa
       containers:
         - name: csi-provisioner
-          image: quay.io/k8scsi/csi-provisioner:v1.0.0
+          image: quay.io/k8scsi/csi-provisioner:v1.0-canary
           args:
             - "--provisioner=dobs.csi.digitalocean.com"
             - "--csi-address=$(ADDRESS)"
